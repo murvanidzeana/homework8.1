@@ -1,0 +1,213 @@
+*{box-sizing: border-box;
+  padding: 0;
+  margin: 0;}
+
+header{height: 130px ;
+      width: 100%;
+      padding-left: 80px;
+      background-color: blue;
+      position: fixed;
+      z-index: 1;
+      }
+
+.logo{width: 80px;
+      height: 50px;
+      margin-top: 30px;}  
+
+      
+a{text-decoration: none;
+  color: white;
+  font-size: 10px;
+  padding-left: 20px;}
+
+
+ul{list-style: none;}
+
+.contact{ margin-left: 50px;
+          border-radius: 40%;
+          padding-left: 60px;
+          color: black;
+          background-color: white;}
+
+.header nav li{display: inline-block;}
+
+ nav{margin-left: 500px;}
+  /* 1) კონტაქტის ლინკი-ვერ შევცვალე ზომა ბექგრაუნდის */
+
+
+
+
+
+
+
+
+ .section1{height: 670px;
+           background-color: blue; }
+
+ .built1{padding-top: 50px;
+         width: 400px;
+         height: 400px; }
+
+ .built2{padding-top: 80px;
+         width: 500px;
+         height: 500px;
+         }
+
+ .Built{ 
+       display: inline-block;
+       padding-left: 156px;
+       padding-top: 60px;
+     }
+ /* 2)პირველი შენობა ვერ მივუახლოვე მეორე შენობას     */
+     
+     
+
+
+
+.section2{height:700px;
+background-color: white;
+}
+
+.about{margin:100px 100px 30px 150px;}
+
+.paragraph1{
+            padding-left: 150px;
+            height: 150px;
+            width: 350px;
+            font-size: 10px;
+            color: grey;
+            display: inline-block}
+
+span{color: blue;}
+
+.Builttt{margin-bottom: 2px;
+       margin-left: 110px;
+       display: inline-block}
+
+.built3{  height: 300px;
+        width: 300px;
+        box-shadow: 10px 10px 1px blue;}
+ /* 3) სურათი ვერაფრით ვერ ჩამოვწიე ქვემოთ        */
+
+
+
+
+
+
+
+
+
+.section3{height: 700px;
+ background-color: white;}
+
+.service{PADDING:50px 70px 0px 400px;}
+
+.paragraph2{ margin-left: 50px;  
+            height: 200px;
+            width: 250px;
+            font-size: 10px;
+            color: grey;
+            display: inline-block;  
+          }
+
+.Built_4{ margin-top: 10px;
+          margin-left: 50px;
+         display: inline-block; }
+
+
+.built4{height: 300px;
+        width: 300px;
+        box-shadow: 10px 10px 1px blue;} 
+
+
+
+
+
+
+.section4{height: 900px;
+  background-color: white;}
+ .Heade_r{height: 30%;
+          background-color: blue;} 
+ .Heade_r h1{color: white;
+             padding-left: 40px;
+             padding-top: 30px;} 
+ .proect{position: relative;}                   
+ 
+  .box{width: 300px;
+      height: 300px;
+      margin: 10px;
+      
+      
+      display: inline-block;
+      border-radius: 10%;}
+ .box:nth-child(1){background-image: url(./proect1.png);
+                   margin-left: 100px;
+                    position: absolute;
+                    bottom: 70px;   
+                  }
+ .box:nth-child(2){background-image: url(./proect2.png);
+                    position: absolute;
+                    left:355px;
+                   bottom: 150px  
+                   }
+ .box:nth-child(3){background-image: url(./proect3.png);
+                    position: absolute;
+                   left:700px ;
+                   bottom: 70px   
+                  }
+ .box:nth-child(4){background-image: url(./proect4.png);
+                   position: absolute;
+                    left:1030px ;
+                   bottom: 70px  
+                   }
+
+ h2{margin-left: 40px;
+    margin-top: 300px;} 
+ .paragraph3{display: inline-block}
+ .paragraph3 p {height: 300px;
+             width: 300px;
+             color: grey;
+             font-size: 10px;
+             padding-left: 40px;
+             padding-top: 30px;
+            
+             
+             }  
+.boxlogo{width:100px;
+       height: 50px;
+    } 
+.box_logo{display:inline-block;
+          }                                  
+
+.boxwrapper{width: 500px;
+          height: 200px;
+          display: inline-block;
+          margin-left: 100px;
+          
+         
+          } 
+
+
+
+
+
+
+ 
+
+
+footer{height: 400px;
+       background-color: blue;}  
+.contactfooter{width: 400px;
+         height: 300px;
+         background-color: blue;
+         color: white;
+         font-size: 10px;
+         padding-top:100px;
+         padding-left: 100px;
+         display: inline-block}
+.contact h2 {font-size: 40px;}   
+
+.form{display: inline-block;
+      color: white;
+      margin-left: 100px;
+      }
